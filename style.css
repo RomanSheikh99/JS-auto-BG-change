@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorBtn{
+    padding: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 25px;
+    font-family: arial;
+    background: #fb5620;
+    color: #fff;
+    border-radius: 5px;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.colorBtn:hover{
+    text-shadow: 0px 0px 25px #fff;
+}
